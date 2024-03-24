@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <div>Product list</div>
+  <div>
+    Product list
+  </div>
 </template>
 
 <style scoped>
