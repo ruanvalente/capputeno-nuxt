@@ -2,9 +2,10 @@
 </script>
 
 <template>
-  <div>
-    Product list
-  </div>
+  <main>
+    <Header/>
+    <slot></slot>
+  </main>
 </template>
 
 <style scoped>

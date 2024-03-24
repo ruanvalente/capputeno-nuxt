@@ -10,14 +10,18 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@phosphor-icons/vue": "^2.1.6",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "prettier": "3.2.5",
+    "sass": "^1.72.0",
     "tailwindcss": "^3.4.1"
   }
 }
