@@ -1,13 +1,11 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
-    <Header/>
+    <Header />
+    <Navbar />
     <slot></slot>
   </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
