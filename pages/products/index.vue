@@ -1,12 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    Product list
-  </div>
+  <div>Product list</div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
