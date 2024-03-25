@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { PhMagnifyingGlass, PhShoppingBag } from '@phosphor-icons/vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="flex items-center w-full h-[80px] bg-white px-60 py-2 header">
@@ -11,14 +9,14 @@ import { PhMagnifyingGlass, PhShoppingBag } from '@phosphor-icons/vue'
           class="w-[325px] bg-gray-100 px-4 py-2 border-gray-50 border-[1px] rounded outline-slate-500 transition-all"
           placeholder="Procura por algo especial?"
         />
-        <ph-magnifying-glass
-          class="absolute top-2.5 bottom-0 right-[80px] text-gray-500"
-          size="24"
-        />
-        <div class="flex items-center flex-col relative">
-          <ph-shopping-bag class="text-gray-500" size="24" />
+        <i
+          class="pi pi-search absolute top-3 ottom-0 right-[80px] text-gray-500 text-base"
+        ></i>
+
+        <div class="flex items-center flex-col relative cursor-pointer">
+          <i class="pi pi-shopping-bag text-gray-500 text-base"></i>
           <span
-            class="flex justify-center items-center w-[17px] h-[17px] absolute top-[18px] right-0 rounded-full bg-red-500 text-white text-[10px]"
+            class="flex justify-center items-center w-[17px] h-[17px] absolute top-[16px] right-[-6px] rounded-full bg-red-500 text-white text-[10px]"
           >
             2
           </span>
