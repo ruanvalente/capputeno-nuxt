@@ -7,5 +7,6 @@ export default defineNuxtConfig({
       Saira: true,
       'Saira Stencil One': true
     }
-  }
+  },
+  css: ['primeicons/primeicons.css']
 })
