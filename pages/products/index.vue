@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const nuxtApp = useNuxtApp()
 const { data, pending, error } = await useFetch(
-  'https://fakestoreapi.com/products?limit=8',
+  'https://fakestoreapi.com/products',
   {
     getCachedData(key) {
       return nuxtApp.payload.data[key] || nuxtApp.static.data[key]
