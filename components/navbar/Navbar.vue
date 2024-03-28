@@ -8,12 +8,14 @@ const isActive = (href: string) => {
 </script>
 
 <template>
-  <nav class="w-full flex items-center gap-10 px-60 py-8">
+  <nav
+    class="flex flex-col md:justify-center items-center w-full md:flex-row gap-10 px-4 py-8 lg:px-60"
+  >
     <div v-for="(item, index) in MENU_OPTIONS" :key="item.pathName">
       <NuxtLink :href="item.pathName">
         <span
           :class="[
-            'text-base uppercase text-gray-500 transition-all',
+            'text-sm md:text-base uppercase text-gray-500 transition-all',
             {
               'text-gray-900 border-b-4 border-orange-400': isActive(
                 item.pathName
