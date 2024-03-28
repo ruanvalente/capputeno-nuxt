@@ -1,6 +1,7 @@
 <template>
+  <NuxtLoadingIndicator color="#fb923c" />
   <NuxtLayout class="min-h-full bg-gray-100">
-    <NuxtPage class="px-60 py-8" />
+    <NuxtPage class="px-8 py-8 lg:px-60" />
   </NuxtLayout>
 </template>
 <script setup lang="ts">

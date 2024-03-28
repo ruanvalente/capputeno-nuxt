@@ -21,7 +21,9 @@ const handlePageChange = (pageNumber: number) => {
 
 <template>
   <div>
-    <div class="flex items-center w-full justify-end mt-[-40px] mb-8">
+    <div
+      class="flex items-center w-full justify-center md:justify-end mt-[-40px] mb-8"
+    >
       <Pagination
         :items-per-page="8"
         :total-items="28"
@@ -29,7 +31,7 @@ const handlePageChange = (pageNumber: number) => {
       />
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-full">
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 w-full">
       <div v-for="product in props.data" :key="product.id">
         <LazySkeletonProductList v-if="props.pending" />
         <NuxtLink
